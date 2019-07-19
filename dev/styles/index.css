@@ -3,6 +3,7 @@
   margin: 0px;
   font-family: verdana;
   border: border-box;
+  background-color: #F2F5FC;
 }
 
 .test {
@@ -19,3 +20,493 @@
   padding: 10px;
   font-weight: bold;
 }
+
+#mdCheckcle {
+  font-size: 70px;
+  margin-left: 43%;
+  color: #50AD59;
+}
+
+.stashContainer {
+  width: 40%;
+  background-color: white;
+  border: 1px solid #EDEDED;
+  padding-bottom: 50px;
+  padding-top: 40px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+  margin-left: 30%;
+  margin-top: 200px;
+}
+
+.stashContainer .content {
+  width: 80%;
+  margin-left: 10%;
+  background-color: #60294F;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.stashContainer h6 {
+   color: #970634;
+   font-weight: bold;
+   text-align: center;
+   padding-bottom: 20px;
+}
+
+.stashContainer .content .phead {
+  font-family: Proxima Nova;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.stashContainer .content .first, .stashContainer .content .second {
+   width: 50%;
+}
+
+.stashContainer .content .second p {
+   text-align: right;
+   margin-right: 20%;
+   padding-top: 2px;
+   margin-bottom: 2px;
+}
+
+.stashContainer .content .first p {
+   padding-top: 2px;
+   margin-left: 20%;
+   margin-bottom: 2px;
+}
+
+.stashContainer .content .pBottom {
+  color: #C7C7C7;
+}
+
+
+.goalSummaryCover {
+  width: 50%;
+  background-color: white;
+  border: 1px solid #EDEDED;
+  padding-bottom: 50px;
+  padding-top: 40px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+  margin-left: 25%;
+  margin-top: 100px;
+}
+
+.goalSummaryHeading h5{
+  text-align: center;
+  color: #AB2656;
+}
+
+.coverForSummary {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.coverForSummary .right, .coverForSummary .left {
+   width: 50%;
+}
+
+.coverForSummary .left {
+  padding-left: 10%;
+}
+
+.coverForSummary .right {
+  padding-left: 5%;
+}
+
+.coverForSummary .boldedText {
+  font-weight: bold;
+  margin-bottom: 0px;
+
+}
+
+.goalSummaryCover button {
+   padding: 10px 30px;
+   background: #AB2656;
+   border-radius: 3px;
+   color: white;
+   font-size: 16px;
+   line-height: 19px;
+   margin-left: 35%;
+   margin-top: 20px;
+}
+
+.coverForSummary .GoalText {
+  font-size: 14px;
+  line-height: 17px;
+  color: #4D4D4D;
+  margin-bottom: 10px;
+}
+
+.topUpGoal {
+  width: 50%;
+  background-color: white;
+  border: 1px solid #EDEDED;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+  margin-left: 25%;
+  margin-top: 100px;
+}
+
+.topUpGoal #subheader{
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 50px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    background-color: white;
+}
+
+.topUpGoal input {
+  background: #FFFFFF;
+  border: 1px solid #eeeeee;
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06); */
+  border-radius: 6px;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 30px;
+  width: 85%;
+  margin-left: 7.5%;
+  background-color: white;
+}
+
+.topUpGoal select {
+  width: 85%;
+  margin-left: 7.5%;
+  font-size: 14px;
+  height: 45px;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  padding-left: 20px;
+  background-color: white;
+}
+
+.topUpGoal h5 {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #444444;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+.topUpGoal label {
+  margin-left: 8%;
+  background-color: white;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.topUpGoal form {
+  background-color: white;
+}
+
+.topUpGoal form button {
+  background: #AB2656;
+  border-radius: 3px;
+  color: white;
+  padding: 10px 30px;
+  font-size: 16px;
+  background: #AB2656;
+  border-radius: 3px;
+  margin-top: 25px;
+  margin-left: 37%;
+}
+
+.flexiGoalContainer {
+  width: 40%;
+  background-color: white;
+  border: 1px solid #EDEDED;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+  margin-left: 25%;
+  margin-top: 100px;
+}
+
+.flexiGoalContainer p {
+  background-color: white;
+}
+
+.flexiGoalContainer span {
+  background-color: white;
+}
+
+.flexiGoalContainer ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.flexiGoalContainer h6, .flexiGoalContainer h5 {
+  background-color: white;
+  text-align: center;
+}
+
+.flexiGoalContainer h5 {
+  font-size: 12px;
+  line-height: 14px;
+  color: #4D4D4D;
+  margin-top: 35px;
+  padding: 10px;
+  background: #F1F1F1;
+  border-bottom: 1px solid #A90836;
+}
+
+.flexiGoalContainer #heading {
+  font-size: 8px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #A90836;
+}
+
+.flexiGoalContainer #subheading {
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #4D4D4D;
+}
+
+.summaryWidget {
+  background-color: white;
+}
+
+.summaryWidget p {
+  background-color: white;
+}
+
+.flexiGoalContainer div {
+  background-color: white;
+}
+
+.editAndPauseGoal ul li {
+  background-color: white;
+}
+
+.editAndPauseGoal ul {
+  background-color: white;
+}
+
+.flexiGoalContainer #shortComment {
+  width: 70%;
+  margin-left: 15%;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4D4D4D;
+  margin-top: 30px;
+}
+
+.flexiGoalContainer #shortComment span {
+    color: #A92957;
+}
+
+.goalProgressD {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 67%;
+  margin-left: 15%;
+}
+
+.goalProgressD .left {
+   width: 50%;
+}
+
+.goalProgressD .right {
+   width: 50%;
+}
+
+.goalProgressD .left p {
+  color: #A92957;
+  font-size: 8px;
+  line-height: 10px;
+  text-transform: uppercase;
+  color: #A90836;
+}
+
+.goalProgressD .right p {
+  text-align: right;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: right;
+  color: #717171;
+}
+
+.flexiGoalContainer #textBelowProgressBar {
+  font-size: 12px;
+  line-height: 14px;
+  color: #4D4D4D;
+  margin-left: 15%;
+}
+
+.flexiGoalContainer #textBelowProgressBar span{
+  color: #A92957;
+}
+
+.flexiGoalContainer #amountSaved {
+  font-size: 10px;
+  line-height: 12px;
+  color: #717171;
+  margin-left: 15%;
+}
+
+.summaryWidget {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.summaryWidget .firstWidget, .summaryWidget .secondWidgeth, .summaryWidget .thirdWidget {
+   width: 33%;
+}
+
+.summaryWidget .thirdWidget {
+  letter-spacing: 0.168px;
+  float: right;
+}
+
+.summaryWidget .firstWidget {
+  padding-left: 0px;
+}
+
+.summaryWidget .subScript{
+  font-size: 10px;
+  color: #717171;
+}
+
+.summaryWidget .subHead {
+  margin-bottom: 5px;
+}
+
+.withdrawTopUp {
+  margin-left: 15%;
+  width: 85%;
+}
+
+.withdrawTopUp button {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
+  padding: 10px 45px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #AB2656;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.withdrawTopUp #rightButton {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  background-color: #A92957;
+  color: white;
+}
+
+.editAndPauseGoal {
+  margin-left: 15%;
+  width: 85%;
+  margin-top: 20px;
+}
+
+.editAndPauseGoal .first, .editAndPauseGoal .second, .editAndPauseGoal .third {
+  font-size: 12px;
+  line-height: 14px;
+  color: #444444;
+  padding-bottom: 20px;
+}
+
+.editAndPauseGoal .first {
+  padding-left: 0px;
+}
+
+.editAndPauseGoal .third {
+  padding-left: 6%;
+}
+
+.editAndPauseGoal .second p {
+    padding-left: 0px;
+}
+
+.stashCashOut {
+  width: 50%;
+  background-color: white;
+  border: 1px solid #EDEDED;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+  margin-left: 25%;
+  margin-top: 100px;
+}
+
+.stashCashOut h5 {
+  background-color: white;
+  text-align: center;
+  font-family: Proxima Nova;
+  font-size: 18px;
+  line-height: 22px;
+  color: #444444;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 15px;
+}
+
+.stashCashOut p {
+  padding: 15px;
+  width: 85%;
+  background: #632D54;
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+  border-radius: 3px;
+  color: white;
+  margin-left: 7.5%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.stashCashOut form {
+  background-color: white;
+}
+
+.stashCashOut label{
+  background-color: white;
+  margin-left: 7.5%;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7C7C7C;
+}
+
+.stashCashOut  select {
+  width: 85%;
+  margin-left: 7.5%;
+  height: 45px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+.stashCashOut button {
+  margin-left: 7.5%;
+  background: #AB2656;
+  border-radius: 3px;
+  color: white;
+  padding: 10px 40px;
+  margin-left: 30%;
+}
+
+/* .flexiGoalContainer button {
+  background-color:
+} */

@@ -1,23 +1,24 @@
-import React from 'react'
+import React, {Component} from 'react';
 import PropTypes from 'prop-types'
+import { MdCheckCircle } from 'react-icons/Md';
 
-class StashCreatedSuccessfully extends React.Component {
-  render () {
-      return(<div>
-                 <div>
-                      <i></i>
-                      <div>
-                          <div>
-                             <p>Stash</p>
-                             <p>Status: Completed</p>
-                          </div>
-                          <div>
-                             <p></p>
-                          </div>
-                      </div>
+export default () => {
+  return(
+    <div>
+        <div className='stashContainer'>
+             <label id="mdCheckcle"><MdCheckCircle /></label>
+             <h6>Fixed Goal Created Successfully</h6>
+             <div className='content'>
+                 <div className='first'>
+                    <p className='phead'>Stash</p>
+                    <p className='pBottom'>Status: Completed</p>
                  </div>
-             </div>)
-  }
+                 <div className='second'>
+                    <p className='phead'>N100, 0000</p>
+                    <p className='pBottom'>Amount Saved</p>
+                 </div>
+             </div>
+        </div>
+    </div>
+  );
 }
-
-//export default StashCreatedSuccessfully;
