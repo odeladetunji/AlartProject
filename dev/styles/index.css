@@ -1,0 +1,21 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: verdana;
+  border: border-box;
+}
+
+.test {
+   margin-top: 50px;
+   width: 80%;
+   margin-left: 10%;
+   background-color: aqua;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+.test p {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
